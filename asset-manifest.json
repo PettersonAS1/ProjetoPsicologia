@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PettersonAS1/ProjetoPsicologia/static/css/main.53d22cbc.css",
+    "main.js": "/PettersonAS1/ProjetoPsicologia/static/js/main.118d274a.js",
+    "static/media/img100.jpeg": "/PettersonAS1/ProjetoPsicologia/static/media/img100.105f1ff14dc1bbfa4e6e.jpeg",
+    "static/media/img2.jpeg": "/PettersonAS1/ProjetoPsicologia/static/media/img2.4a7e191a3385e571363b.jpeg",
+    "index.html": "/PettersonAS1/ProjetoPsicologia/index.html",
+    "main.53d22cbc.css.map": "/PettersonAS1/ProjetoPsicologia/static/css/main.53d22cbc.css.map",
+    "main.118d274a.js.map": "/PettersonAS1/ProjetoPsicologia/static/js/main.118d274a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53d22cbc.css",
+    "static/js/main.118d274a.js"
+  ]
+}
