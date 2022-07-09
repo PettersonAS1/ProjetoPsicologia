@@ -8,7 +8,6 @@
     justify-content: space-around;
     color: var(--text-color);
     align-items: center;
-    margin-bottom: 3em;
 }
 
 .address,
@@ -27,8 +26,18 @@
 }
 
 .address-details {
-    text-align: center;
-    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+.h3-address {
+    color: var(--primary);
+    margin-bottom: 0.5em;
 }
 
 .about-location h3 {

@@ -22,7 +22,7 @@ function Address() {
             if (data.uf == 'DF') {
                 alert("Que legal! Estamos disponiveis em " + data.localidade + ", marque já sua consulta.")
             } else {
-                alert("Infelizmente ainda não estamos disponiveis " + (data.uf == 'RJ' ? " em " : "no ") + data.uf + " :(")
+                alert("Infelizmente ainda não estamos disponiveis " + (data.uf == 'RJ' || 'ES' ? "no " : "em ") + data.uf + " :(")
             }
         });
 
@@ -31,15 +31,15 @@ function Address() {
     return (
         <div className='local-area'>
             <div id="address">
-                <i className="bi bi-geo-alt-fill"></i>
+                {/* <i className="bi bi-geo-alt-fill"></i> */}
                 <div id="address-details">
 
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <label>
-                            CEP:
+                            <h3 className='h3-address'>Digite seu CEP:</h3>
                             <input type="text" {...register("cep")} onBlur={checkCEP} />
                         </label>
-                        <button type="submit">Enviar</button>
+                        <button type="submit" className='btn btn-adress'>Enviar</button>
                     </form>
 
                 </div>
